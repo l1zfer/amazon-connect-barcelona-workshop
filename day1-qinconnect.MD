@@ -20,3 +20,10 @@
 - **Amazon Bedrock**: Large language models, prompts, KBs and guardrails
     - Does not train the LLM using customer data or conversations (runs locally)
     - Priced per minutes (voice, regardless of IVR or agent interaction) or messages (chat)
+
+## How QiC works (basically KCS)
+- **Customer issue**: auto-intent detection ML, or search, based on customer input
+- **Relevant personal information**: custom data can be integrated to the interaction
+- **Relevant company information**: Amazon Bedrock KBs referrals from customer's repository
+- **What Q asks the LLM**: LLM prompts providing response as an agent using 
+- **Generative solution**: provided by Amazon Bedrock (default LLM: Claude / Nova)
