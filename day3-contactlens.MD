@@ -1,0 +1,77 @@
+# Amazon Connect Contact Lens
+- Call recording, transcription and sentiment analysis
+- Sensitive data redaction to protect customer privacy
+- Screen recording review for process improvements
+- Supervisor barge-in for live monitoring and assistance
+- Generative AI-powered post-contact summaries to reduce supervisors' efforts
+- To enable, add a `Set recording and analytics behavior` block to the flow and enable call recording for both agent and customer
+
+## New features
+- **Generative AI-powered performance evaluations**
+    - Automatically answer evaluation questions with rich context and reasons
+    - Improve QA efficiency by automation
+- **Performance evaluation automation options**
+    - Flexibility to define automation strategies based on business needs
+    - Define rules for automatic submission of performance evaluations
+    - Select contacts for evaluation based on business priorities
+    - Multiple automation options: manual assessment, rule-based or generative AI-powered automation
+- **Performance evaluation calibrations**
+    - Enable multiple evaluators to evaluat a contact at the same time and calibrate results
+- **Generative AI-powered contact categorization**
+    - Automatically categorize contacts using user-defined natural language
+    - Available in US regions only
+- **Play IVR recording**
+    - Monitor cusomter conversations end-to-end in a single, comprehensive Contact record
+    - Consolidate customer interactions with IVR and human agents in one place
+    - Provide rich context to generate insights for improving self-service containment
+- **Generative AI-powered post-contact summaries for agents**
+    - Improve agent productivity and reduce after-call work - contact summary is available seconds after the call disconnects
+    - Display conversation summaries to agents immediately after each interaction - highlight reasons, actions, results and follow-ups
+    - Enhance transfer experience by providing comprehesive summaries of previous contacts
+    - Enable easy access to summaries from the agent's desktop
+    - Integrate with other applications via API
+    - Work for voice contacts only
+    - Available in multiple regions: US East, US West, Sydney, London, Canada, Japan and Singapore
+- **Support transcriptions in 10 languages and improved accuracy**
+    - Catalan, Danish, Dutch, Finnish, Norwegian Bokmal, Polish, Swedish, Indonesian, Malay, Tagalog/Filipino
+- **Contact Lens conversations AI bot dashboards**
+    - Monitor self-service resolution rates
+    - Compare key metrics to identify low-performing experience
+    - Detects customer intents and trends to capture business insights
+- **Intraday forecasts**
+    - Prediction of average speed of answer and staffing levels
+    - Enable businesses to predict workload and staffing impacts in next 12 hours and take proactive actions
+    - Provide near real-time demand (contact volume and handle time), Average Speed of Answer (ASA) and effective staffing level
+    - Update every 15 minutes
+    - Require published short-term forecasts
+    - Filter by queues and channels
+- **External voice**
+    - Provide a single analytics solution for all voice workloads
+    - Improve CX and agent performance for all voice workloads (Connect and external voice systems)
+    - Enable CC modernization and migration with optimization insights at your own pace
+    - Facilitate automated performance evaluation for agents across all voice systems
+    - Offer comprehensive reporting and dashboards for insights across multiple voice platforms
+- **Configurable dashboard to capture insights and trends**
+    - Customize dashboards to meet business needs
+    - Move and resize widgets and windows, change metrics and thresholds, download or share with other teams
+    - Identify call drivers with long AHT, high volumes, and top movers and trends
+
+## Conversational analytics for voice and chat
+- Uncover trends and improve customer service and agent productivity
+- Easy access to conversational analytics for voice and chat in real-time or post contact
+- Analytics dashboard to capture insights and trends
+    - Contact categories: number of contacts, AHT and trends with deep-dive on contact details
+- Notify supervisors of urgent issues in real-time by defining rules for analytics or metrics, via tasks, email, or events to third-party systems, or if specific keywords/phrases are detected on an interaction
+- Discover emerging contact themes from customer interactions
+    - Discover previously unknown or emerging contact themes from thousands of interactions
+    - Quickly investigate critical issues with filters that group recordings and transcripts by theme
+    - Provides insights to inform and evaluate data-driven improvements to contact flows and agent resources
+- Improve agent productivity with insights to action
+    - Reduce the need for agents ACW with highlights on interactions, and the need for customers to repeat themselves
+- Enhance CC security and compliance
+    - Detect and redact sensitive customer data (PII)
+    - Control access permissions
+- Automate follow-ups and action items via Tasks
+- Find agent coaching opportunities by identifying contacts impacting business metrics
+- Customize vocabulary to improve transcription accuracy
+- Expedite chatbot design using transcripts, reducing manual building effort and without a code interface
